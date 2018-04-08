@@ -1,5 +1,5 @@
-KOBOCAT_URL = 'http://localhost:8001'
-KOBOCAT_INTERNAL_URL = 'http://localhost:8001'
+KOBOCAT_URL = 'http://kobocat:8001'
+KOBOCAT_INTERNAL_URL = 'http://kobocat:8001'
 
 DATABASES = {
     'default': {
@@ -7,7 +7,7 @@ DATABASES = {
         'NAME': 'kobocat1',
         'USER': 'postgres',
         'PASSWORD': 'password',
-        'HOST': '',
+        'HOST': 'db',
         'PORT': '',
     }
 }
